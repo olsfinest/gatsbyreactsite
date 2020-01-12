@@ -12,7 +12,7 @@ const PageLayout = ({ data }) => {
     <div>
       <Header />
       <main>
-      {page.acf.featured_image.source_url.length > 0 &&
+      {page.acf.featured_image.length > 0 &&
       <img className="lazyload" data-src={ page.acf.featured_image.source_url } alt="featured" title="featured" />
       }
         <div className="container innerpage">
