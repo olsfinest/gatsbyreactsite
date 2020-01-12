@@ -3,13 +3,18 @@ import { graphql } from "gatsby"
 import Header from "../components/Header"
 import Footer from "../components/Footer"
 
+
+
 const PageLayout = ({ data }) => {
   const page = data.wordpressPage
+
   return (
     <div>
       <Header />
       <main>
+      {page.acf.featured_image.source_url.length > 0 &&
       <img className="lazyload" data-src={ page.acf.featured_image.source_url } alt="featured" title="featured" />
+      }
         <div className="container innerpage">
           <div className="row justify-content-md-center">
             <h1 dangerouslySetInnerHTML={{ __html: page.title }} />
