@@ -1,0 +1,57 @@
+{
+  "name": "gatsby-starter-hello-world",
+  "private": true,
+  "description": "A simplified bare-bones starter for Gatsby",
+  "version": "0.1.0",
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+  },
+  "dependencies": {
+    "add": "^2.0.6",
+    "bootstrap": "^4.4.1",
+    "gatsby": "^2.18.12",
+    "gatsby-plugin-manifest": "^2.2.34",
+    "gatsby-plugin-netlify": "^2.1.30",
+    "gatsby-plugin-netlify-cache": "^1.2.0",
+    "gatsby-plugin-offline": "^3.0.30",
+    "gatsby-plugin-react-helmet": "^3.1.18",
+    "gatsby-plugin-robots-txt": "^1.5.0",
+    "gatsby-plugin-sharp": "^2.3.10",
+    "gatsby-plugin-transition-link": "^1.17.7",
+    "gatsby-remark-images": "^3.1.39",
+    "gatsby-remark-lazy-load": "^1.0.2",
+    "gatsby-source-filesystem": "^2.1.43",
+    "gatsby-source-wordpress": "^3.1.54",
+    "gatsby-transformer-remark": "^2.6.45",
+    "gsap": "^3.0.4",
+    "lazysizes": "^5.2.0",
+    "react": "^16.12.0",
+    "react-animated-slider": "^2.0.0",
+    "react-bootstrap": "^1.0.0-beta.16",
+    "react-dom": "^16.12.0",
+    "react-fontawesome": "^1.7.1",
+    "react-helmet": "^5.2.1",
+    "react-html-parser": "^2.0.2",
+    "react-innertext": "^1.1.5",
+    "react-photo-gallery": "^8.0.0",
+    "react-scrollchor": "^6.0.0",
+    "yarn": "^1.21.1"
+  },
+  "devDependencies": {
+    "prettier": "^1.19.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gatsbyjs/gatsby-starter-hello-world"
+  },
+  "bugs": {
+    "url": "https://github.com/gatsbyjs/gatsby/issues"
+  }
+}
